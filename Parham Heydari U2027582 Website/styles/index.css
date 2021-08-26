@@ -1,0 +1,366 @@
+
+/* Content of CSS, Created by Parham Heydari:
+
+    1. Header
+    2. Shop Bike Elements
+    3. About Page
+    4. The 3 Icons and Subscribe
+    5. Footer
+    6. Contact Us
+
+    */
+
+* {
+    box-sizing: border-box; 
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+    background-color: #c8e3fa;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+/*  ==================
+        1. Header 
+    ================== 
+*/
+.header {
+    position: relative;
+    max-width: 1365px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+
+/* Child Header Color */
+.child{
+    top: 100px;
+    left: 100px;
+    background-color: #8aacc8;
+}
+
+/* picture top left */
+.contact {
+    left: -10px;    
+}
+
+.header.scrolled .header_content
+{
+	height: 70px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a.logo {
+left: auto;
+margin-left: 5%;
+}
+
+header a.text {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 36%;
+    color: #1B1B1B;
+}
+
+header nav {
+    float: right;
+    cursor: default;
+    position: absolute;
+    top: 40%;
+    right: 380px;
+}
+
+header nav a {
+    color: #000000;
+    padding: 0 24px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #1B1B1B;
+}
+
+
+.link-titles{
+margin-left: -180px;
+}
+
+/*  ==================
+    2. Shop Bike Elements 
+    ================== 
+*/
+
+/* Showing 12 Results */
+.category-desc-line {
+    margin: 0 auto;
+    max-width: 1366px;
+    padding: 36px 48px;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Bike products Grid */
+.wrapper-products .products {
+    margin: 0 auto;
+    max-width: 1366px;
+}
+
+.wrapper-products .products .product {
+    float: left;
+    width: 25%;
+    margin-top: 36px;
+    padding: 0 3%;
+}
+
+.wrapper-products .product .product-content .product-title a {
+    color: #1B1B1B;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wrapper-products .product .product-content .product-title a:hover {
+    color: #f8236a;
+}
+
+.wrapper-products .product .product-content .product-price {
+    color: #767676;
+}
+
+.break {
+    display: inline-block;
+    padding: 24px;
+}
+
+.breakextra {
+    display: inline-block;
+    padding: 134px;
+}
+
+
+/*  ==================
+    3. About Page 
+    ================== 
+*/
+
+.smilepic{
+    position: absolute;
+    width: 25%;
+    padding: 0 3%;
+    display: block;
+
+}
+
+.logopic{
+    width: 25%;
+    padding: 0 3%;
+    display: block;
+    margin-left: auto;
+}
+
+.headerimage{
+    width: 40.1%;
+    padding: 0 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .aboutpara{
+    display: block;
+    margin-left: 29.5%;
+    margin-top: -17%;
+    width: 45%;
+    font-size: 16.3px;
+}
+
+.center{
+    margin: .8em auto;
+    width: 700px;
+}
+
+/*  ============================
+    4. The 3 Icons and Subscribe 
+    ============================
+*/
+
+
+/* Icon */
+.wrapper-icon .icon {
+    margin: 0 auto;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.wrapper-icon .icon .box {
+    float: left;
+    width: 33.3%;
+}
+
+.wrapper-icon .icon .box p.b {
+    font-weight: 500;
+    color: #1B1B1B;
+}
+
+.wrapper-icon .icon .box p {
+    color: #6C6A74;
+}
+
+/* Subscribe */
+.wrapper-subscribe {
+    margin-left: 38%;
+    max-width: 1366px;
+    
+}
+
+.wrapper-subscribe .subscribe {
+    padding: 32px;
+}
+
+
+.wrapper-subscribe .subscribe button {
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #1B1B1B;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    
+}
+
+.wrapper-subscribe .subscribe button:hover {
+    color: #F5F5F5;
+    background-color: #1B1B1B;
+}
+
+.wrapper-subscribe .subscribe button:focus {
+    outline: 0;
+}
+
+.wrapper-info {
+    padding: 12px 36px;
+}
+
+.wrapper-info input, .wrapper-info textarea {
+    border: 1px solid #252525;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: #252525;
+}
+
+.wrapper-info label {
+    font-size: 18px;
+}
+
+.wrapper-info input[type=submit] {
+    padding: 8px 16px;
+    border: 2px solid #1B1B1B;
+    background-color: transparent;
+}
+
+.wrapper-info input[type=submit]:hover {
+    color: #F5F5F5;
+    background-color: #1B1B1B;
+}
+
+.wrapper-info input:focus, .wrapper-info textarea:focus {
+    outline: 0;
+}
+    
+p.transformhover1:hover{
+    color:black;
+    -webkit-transform:rotate(10deg) translateX(80px) scale(1);
+    -moz-transform: rotate(10deg) translateX(80px) scale(1);
+    -ms-transform: rotate(10deg) translateX(80px) scale(1);
+    -o-transform: rotate(10deg) translateX(80px) scale(1);
+    transform: rotate(10deg) translateX(80px) scale(1);
+    }
+
+/*  ==================
+        5. Footer 
+    ==================
+*/
+
+ p.footer
+{
+  padding: 0 0 20px 0;
+  margin-left: auto;
+  margin-top: auto;
+  align-self: center;
+}
+
+.footer-footer{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background:#272727;
+	padding: 20px 0px;
+}
+
+.footer-end{
+	background: #8aacc8;
+	padding: 10px;
+	text-align: center;
+    font-weight: 510;
+}
+
+.footer-nav ul li{
+	display: inline-block;
+	margin: 10px 20px;	
+    color: #000000;
+}
+.footer-nav ul li a{
+	text-decoration: none;
+	color: #000000;
+	letter-spacing: 1px;
+}
+.line {
+    color: #000000;
+    width: 530px;
+}
+
+
+/*  =======================
+        6. Contact Form 
+    =======================
+*/
+
+ input, textarea { 
+    margin: .8em auto;
+    color: #000000;
+    font-family: inherit; 
+    text-transform: inherit; 
+    font-size: inherit;
+    display: block; 
+    width: 280px; 
+    padding: .4em;
+    
+}
+
+ textarea { 
+    height: 80px; 
+    resize: none;
+
+}
+
+
+ .centercontact {
+    display: block;
+    margin-left: 29%;
+    width: 40%;
+}
+
+ .centerline {
+    display: block;
+    margin-left: 31%;
+    width: 40%;
+}
+
+/* The End */

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent a Bike</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel = "icon" href = "images/Logo_title.png">
+    
+</head>
+<body>
+    
+    <!-- Header, which contains a logo, its text and navigations -->
+    <div class="link-titles"> 
+        <div class= "child">
+            <header class ="header contact">
+              <a href="Index.html" class="logo"><img src="images/Logo.png" width="112" alt="bike"></a>
+              <a href="Index.html" class="text">Rent a Bike</a>
+              <nav>
+               <a href="Index.html">Home</a>
+               <a href="Shop.html">Shop</a>
+               <a href="About.html">About</a>
+               <a href="Contact.html">Contact Us</a>
+           </nav>
+        </header>
+        </div>
+        </div>
+    
+           <div>
+               <img src = "images/Phone_Email_Header.png" style="margin-left: 70%; margin-top: -20%; margin-bottom: 1.3%;" width="200" alt="Phone and Email Header Picture"> <!-- had to put styles here as div and css wasn't working-->
+           </div>
+
+
+<!-- Images and text-->
+<img src = "images/whoarewe.jpg" class="headerimage" alt="who are we?">
+<h3 class="center"> Welcome to Rent a Bike, London's finest Bicycle rental service. </h3>
+<a href = "images/smilepic.jpg"> <img src = "images/smilepic.jpg" class="smilepic" style="margin-left: 20px;" alt="smile pic"> </a>
+<a href = "images/Logo.png"> <img src = "images/Logo.png" class="logopic" alt="Logo"> </a>
+<p class="aboutpara"> Rent a Bike was founded by Parham Heydari in early 2021. Our company offers services no one else does. If you are going on a holiday
+    and don't have the accessories to transport your rented bicycle then you can ask us where and when you would like your bikes to be delivered. 
+    
+    <br><br> We offer world wide shipping
+    and support so if you are far from home and your bicycle breaks down, our maintenance team is on the phone 24/7. For years we have been mastering the art of Bicycle Ecommerce, 
+    and after countless hours of research we have realised that many people do not want to purchase a bike thus making us come up with the idea of renting a bike. 
+    <br><br>
+    If the bike you rent costs over £500 then shipping will be on us! If you also don't want to rent it for a month then you can rent it for a shorter amount of time even a day 
+    for those who do bicycle marathons. If you don't like your bike or can't fix the issues with our maintenance team then don't worry, we will replace it for you free of charge!
+    <br><br>
+    If you have any problems you can always contact us via <a href="mailto:Parhey10@gmail.com"> Email</a> or you give us a <a href="tel:07930202662"> Call</a>. Telephone lines are open 24/7
+    so you don't have to worry about calling us from different timezones. If you are unable to get any reception or/and have problems with your email then you can head over to <a href="Contact.html">Contact Us</a>
+    and fill out the form, we promise to reply within 2-4 hours. If you would like to  subscribe to our newsletter program to receive weekly deals please enter your email address down below.
+    <br><br>
+
+    Thank you for chosing Rent a Bike, I hope that in the future we will meet or exceed your expectations.
+</p>
+
+
+        
+        <!-- Space -->
+        <div class="break"></div>
+        
+        <hr>
+    
+    <!-- Subscribe -->
+    <div class="wrapper-subscribe">
+        <div class="subscribe">    
+            <form name="email" onsubmit="return validateForm()" method="post">
+                <h2 style="margin-left: 50px; margin-bottom: 5px;">Subscribe to our newsletter</h2>
+                <input name="femailaddress" type="email" class="feedback-input" placeholder="Enter your email address here"  style="text-align: center; width: 410px; background-color: #c8e3fa; float: left;"/>
+                <button style="margin-left: -260px; margin-top: 70px"> Subscribe </button> <!-- margin left and the margin top are used to center the button-->                
+            </form>
+            </div>
+    </div>
+
+
+    <div class="break"></div>
+    <div class="break"></div>
+    <!-- Footer -->
+    <div class="banner-footer">
+
+        <br>
+        <br>
+
+        <div class="footer-end footer-nav">
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+            <div class = "centerline">
+                <hr color= black style="width: 500px;">
+            </div>
+        <p>Designed By: <a href="https://www.linkedin.com/in/parham-heydari/">Parham Heydari</a> | © 2021</p>
+  </div>
+    </div>
+  <!-- scripts -->
+  <script>
+        
+    /* Subscribe js alert */
+    function validateForm() { // Defines the valideForm
+    var x = document.forms["email"]["femailaddress"].value; 
+    if (x == "") {    //validation check
+        alert("Your email address is invalid");
+    return false;
+    }
+    else{ 
+        alert("Thanks for signing up!"); // will output if the email is valid
+    }
+}
+
+</script>
+</body>
+</html>
