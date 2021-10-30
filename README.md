@@ -1,7 +1,7 @@
 #COPYRIGHT PARHAM HEYDARI
 
 End of First year Bike shop project
-This website was created with HTML, CSS and Javascript.
+This website was created with HTML, CSS, Javascript some photos were also photoshopped.
 
 Beware of any unaligned elements, website was created using half of an ultrawide monitor.
 
